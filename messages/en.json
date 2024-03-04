@@ -1,5 +1,24 @@
 {
     "Index": {
       "title": "Hello world!"
+    }, 
+    "Header":{
+      "navHome":"Home",
+      "navAbout":"About Siffa",
+      "navTrain":"Courses",
+      "navActivity":"Activity",
+      "navContact":"Contact",
+      "navMember":"Members",
+      "navServices":"Services"
+    },
+    "HeaderContact":{"address":"Damas Tower ,7th Floor ,Suite No.12" },
+    "Hero":{
+      "Siffa": "SYRIAN ASSOCIATION FOR FREIGHT FORWARDING & LOGISTIC ASSOCIATION"
+    },
+    "AboutSection":{
+      "title":"About Siffa",
+      "WhatIsSiffa":"What is Siffa",
+      "AboutDescription":"Siffa has been established in 2007 for representing Syrian worker in Transportation and Feight  Section  ",
+      "AboutMission":"Mission"
     }
   }

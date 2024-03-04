@@ -12,9 +12,13 @@ const config = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "15px",
       screens: {
-        "2xl": "1400px",
+        sm:'640px',
+        md:'768px',
+        lg:'960px',
+        xl:'1200px',
+        
       },
     },
     extend: {
@@ -40,6 +44,10 @@ const config = {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",
         },
+        Bgdash: {
+          DEFAULT: "#151c2c",
+          foreground: "#182237",
+        },
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
@@ -51,6 +59,20 @@ const config = {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        white:'#fff',
+        black:'#273029',
+        orange:'#f2994a',
+        outline:'#f1f1f1',
+        pink:'#f3d1d7',
+        body:'#e5e5e5',
+        soft_green:{
+          DEFAULT:'#85C7DC',
+          secondary:'#f3f9fb',
+        },
+        grey:{
+          DEFAULT:'#888',
+          secondary:'#f8f8f8',
         },
       },
       borderRadius: {
@@ -73,6 +95,7 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
+    
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config
